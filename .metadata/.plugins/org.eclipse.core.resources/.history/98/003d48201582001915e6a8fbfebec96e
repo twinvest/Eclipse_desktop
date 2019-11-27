@@ -1,0 +1,15 @@
+
+public class Monsterball {
+	Poketmon p;
+	
+	void print(){
+		if(p==null)System.out.println("이 몬스터볼은 비어있습니다.\n");
+		else p.print();
+	}
+	
+	boolean isEmpty() {
+		if(p == null)return true;
+		else return false;
+	}
+	
+}

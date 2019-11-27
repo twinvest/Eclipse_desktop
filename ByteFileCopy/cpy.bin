@@ -1,0 +1,122 @@
+import uuid
+import sys
+import platform
+import gc
+import pandas
+
+
+def f_printProcess(arg):
+	if (arg%200000==0):
+		print('.', end='', flush=True)
+	if (arg%10000000==0):
+		print(str(arg))
+
+if ( len(sys.argv) ==3 ):
+	file_pathr1 = sys.argv[1]
+	file_pathr2 = sys.argv[2]
+	file_pathw = 'out_stat.csv'
+	file_pathw2 = '_out.csv'
+	isComp=True
+else: 
+	print ('GroupID Ver: 1.00')
+	print (platform.architecture())
+	print ('groupid a.csv b.csv : a for mediainfo  , b for gaid data  output: out_stat.csv and adid media@sub@month_out.csv ')
+	sys.exit()
+
+print ('Reading Media Info : '+ file_pathr1 + ' Start')
+
+ht1 ={}
+ht2 ={}
+df1 = pandas.read_csv(file_pathr1,header=0,names=['pname','subad','subsite'])
+for row in df1.itertuples():
+	s=row.pname +'@' + row.subad+'@'+row.subsite
+	ht1[s]=set()
+	ht2[s]=0
+
+print(df1.head(2))
+print(df1.shape)
+
+#df1.to_csv(file_pathw2+'group',index=False)
+
+#created,publisher.name,google_aid,advertiser_sub_ad.name,advertiser_sub_ad.ref,advertiser_sub_site.name,advertiser_sub_site.ref
+print ('Reading GAID data  : '+ file_pathr2 + ' Start')
+df2 = pandas.read_csv(file_pathr2,header=0,names=['cr','pname','gaid','subad','subadr','subsite','subsiter'],usecols=['pname','gaid','subad','subsite'])
+print(df2.head(2))
+print(df2.shape)
+
+linecount=0
+linecountn=0
+
+with open('out2/except.csv','w') as fw2:
+	for row in df2.itertuples():
+		s=str(row.pname) +'@' + str(row.subad)+'@'+str(row.subsite)
+		if  s in ht2:
+			ht2[s] = ht2[s]+1 
+			linecount =linecount +1
+		else:
+			linecountn =linecountn+1
+			fw2.write (str(row.pname) +',' + str(row.subad)+','+str(row.subsite)+','+str(row.gaid)+'\n')
+
+for key,value  in ht2.items():
+	print ( str(key) +":"+ str(value))
+print ("LineInGroup:"+ str(linecount))	
+print ("LineNotInGroup:"+ str(linecountn))
+
+print ('Saving GAID per Media  Start')
+
+
+for key,value  in ht2.items():
+	with open('out2/'+key+'.csv','w') as fw2:	
+		print (str(key))
+		for row in df2.itertuples():
+			s=str(row.pname) +'@' + str(row.subad)+'@'+str(row.subsite)
+			if ( s==str(key)):
+				fw2.write (str(row.pname) +',' + str(row.subad)+','+str(row.subsite)+','+str(row.gaid)+'\n')
+
+
+print ('Processing Unique Between Media Start')
+for row in df2.itertuples():
+	s=str(row.pname) +'@' + str(row.subad)+'@'+str(row.subsite)
+	if  s in ht1:
+		ustr=str(row.gaid).rstrip();
+		try:
+			val=uuid.UUID(ustr,version=4)
+		except Exception:
+			#print('e', end='', flush=True)
+			continue
+		if (str(val) == ustr ):
+			ht1[s].add(ustr)
+		else:
+			print ('x', end='', flush=True)
+
+
+s= 'pname,unique,only'
+with open(file_pathw,'w') as fw1:
+	for key,value  in ht1.items():
+		s=s+ ','+ key
+	#print (s)
+	fw1.write(s+'\n')
+	for key1,value1  in ht1.items():
+		s= key1+','+str (len(value1 ))
+		s2=''
+		set1=value1
+
+		for key2,value2  in ht1.items():
+			if (key1==key2):
+				s2+=','
+			else:
+				s2= s2+ ','+ str( len(value1&value2))   
+				set1=set1-value2
+		s= s+','+str(len(set1)) +s2;		
+		#print (s)
+		fw1.write(s+'\n')
+
+print ('Saving GAID per Media  Start')
+for key,value  in ht1.items():
+	with open('out/'+key+file_pathw2,'w') as fw2:	
+		set1=value
+		for c in set1:
+			fw2.write (str(c)+'\n')
+
+#iddata.to_csv(file_pathw2+'id',index=False)
+

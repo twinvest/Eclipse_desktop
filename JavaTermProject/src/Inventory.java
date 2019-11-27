@@ -1,0 +1,63 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Inventory {
+	
+	Scanner scan = new Scanner(System.in);
+	int money;
+	int numofmonsterball;
+	int numofpotion;
+	ArrayList<Monsterball> myPoketmonlist = new ArrayList<>();
+	Inventory(){};
+	Inventory(int money){this.money = money;}
+		
+	int listIsEmpty() {
+		int i = -1;
+		for(Monsterball b : myPoketmonlist) {
+			i++;
+			if(b.isEmpty()) return i; //널인 곳을 반환.
+		}
+		return myPoketmonlist.size(); //꽉찼음.
+	}
+	
+	void showMyInventory() {
+		System.out.println("==============================================");
+		System.out.printf("현재 소유하고 있는 돈 : %d\n", money);
+		System.out.printf("현재 사용가능한 몬스터볼 : %d\n", numofmonsterball);
+		System.out.printf("현재 사용가능한 물약 : %d\n", numofpotion);
+		System.out.println("내가 소유한 몬스터볼 정보");
+		
+		for(Monsterball p : myPoketmonlist) { //몬스터볼에 들어있는 포켓몬들을 출력해줌.
+			p.print();
+		}
+		System.out.println("==============================================");
+	}
+	
+	int checkMyInventory(Poketmon randomMonster, Game game){
+		if(this.numofmonsterball <= 0 && this.numofpotion <= 0) {
+			System.out.println("가방이 비었습니다.");
+			return 0;
+		}else {
+			System.out.printf("1. 몬스터 볼  x %d\n", this.numofmonsterball);
+			System.out.printf("2. 회복 물약  x %d\n", this.numofpotion);
+			System.out.println("어떤 아이템을 사용하시겠습니까?");
+			System.out.println("==============================================");
+			System.out.println(">>");
+			int select = scan.nextInt();
+			if(select == 1) {
+				int num = game.throwPoketmonBall(randomMonster); //1은 잡은거 0은 못잡은거
+				if(num == 1) return 1;
+				else return 0;
+			} 				
+			else if(select == 2) { drinkpotion(game); return 0;}
+			return 0;
+		}
+	}
+	
+	void drinkpotion(Game game) {
+		int per = game.myPoketmon.initial_hp / 100;
+		game.myPoketmon.hp = game.myPoketmon.hp + (per * 30); //30퍼센트 회복.
+		this.numofpotion--;
+	}
+	
+}

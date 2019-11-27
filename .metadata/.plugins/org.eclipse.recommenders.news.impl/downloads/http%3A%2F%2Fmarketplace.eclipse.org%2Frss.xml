@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Jenkins Editor</title>
+    <link>http://marketplace.eclipse.org/content/jenkins-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jenkins-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2019-06-01 21:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2017-09-28 18:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;Overview&lt;/h3&gt;
+&lt;p&gt;Jenkins editor is just a jenkins build script editor plugin for eclipse&lt;/p&gt;
+&lt;h4&gt;Features&lt;/h4&gt;
+&lt;ul&gt;&lt;li&gt;Code completion and tooltips (for Jenkins DSL)&lt;/li&gt;
+&lt;li&gt;Syntax highlighting, customizable colors, pre defined default for Dark Theme&lt;/li&gt;
+&lt;li&gt;Groovy syntax validation&lt;/li&gt;
+&lt;li&gt;Validate by Jenkins Linter directly from editor by context menu&lt;/li&gt;
+&lt;li&gt;Bracket switching (CTRL + p)&lt;/li&gt;
+&lt;li&gt;Outline + Quick outline (CTRL + o) for declarative pipelines&lt;/li&gt;
+&lt;li&gt;Block commenting (CTRL + 7)&lt;/li&gt;
+&lt;li&gt;Todo Task support&lt;/li&gt;
+&lt;li&gt;File associations to &quot;Jenkinsfile&quot;, &quot;*.jenkins&quot;, &quot;*.jenkinsfile&quot;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;Where can I get more information about the plugin ?&lt;/h4&gt;
+&lt;p&gt;Please look into&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-jenkins-editor/wiki&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Wiki (GitHub)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tEzPHW9fC69uqtnHPK6eiOz&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Video play list (YouTube)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt;What has changed between releases, what&#039;s new ?&lt;/h4&gt;
+&lt;p&gt;Please look into &lt;a href=&quot;https://github.com/de-jcup/eclipse-jenkins-editor/releases&quot; target=&quot;#blank&quot; rel=&quot;nofollow&quot;&gt;Release history (GitHub)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 28 Sep 2017 22:05:33 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">3680354 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jenkins-editor#comments</comments>
+  </item>
+  <item>
+    <title>JAutodoc</title>
+    <link>http://marketplace.eclipse.org/content/jautodoc</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2019-06-01 13:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Martin%20Kesting%22&quot;&gt;Martin Kesting&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2006-08-21 10:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingnamecp2/listings&quot; title=&quot;Martin Kesting&quot;&gt;Martin Kesting&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;JAutodoc is an Eclipse Plugin for automatically adding Javadoc and file headers to your source code. It optionally generates initial comments from element name by using Velocity templates for Javadoc and file headers. The main features are&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Complete, keep or replace existing Javadoc&lt;/li&gt;
+&lt;li&gt;Create initial comments from element name&lt;/li&gt;
+&lt;li&gt;Getter/Setter comments from related field comment&lt;/li&gt;
+&lt;li&gt;Add/Replace file headers&lt;/li&gt;
+&lt;li&gt;Velocity templates for Javadoc and headers&lt;/li&gt;
+&lt;li&gt;Ant Task for Eclipse&lt;/li&gt;
+&lt;li&gt;Support for Package Javadoc&lt;/li&gt;
+&lt;li&gt;Search for missing Javadoc and file headers&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 21 Aug 2006 14:11:30 +0000</pubDate>
+ <dc:creator>mmisingnamecp2</dc:creator>
+ <guid isPermaLink="false">246 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jautodoc#comments</comments>
+  </item>
+  <item>
+    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, VHDL, and PSS</title>
+    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-05-31 13:28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;AMIQ Support&quot;&gt;AMIQ Support&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the design and verification engineers working with &lt;strong&gt;SystemVerilog, Verilog, VHDL, e, UPF, CPF, SLN, PSS, SDL&lt;/strong&gt;. &lt;strong&gt;Including Universal Verification Methodology (UVM)&lt;/strong&gt; support. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Increase the speed and quality of new code development&lt;/li&gt;
+&lt;li&gt;Easily understand complex or poorly documented source code&lt;/li&gt;
+&lt;li&gt;Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
+&lt;li&gt;Accelerate language and methodology learning&lt;/li&gt;
+&lt;li&gt;Automatically generate well-organized source code documentation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Compilation errors signaled on the fly&lt;/li&gt;
+&lt;li&gt;Autocomplete / Content Assist&lt;/li&gt;
+&lt;li&gt;Customizable code and project templates&lt;/li&gt;
+&lt;li&gt;Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
+&lt;li&gt;Hyperlinks&lt;/li&gt;
+&lt;li&gt;Semantic Search and Show Usages&lt;/li&gt;
+&lt;li&gt;Quick fixes / Autocorrect&lt;/li&gt;
+&lt;li&gt;Refactoring&lt;/li&gt;
+&lt;li&gt;Macro expansion&lt;/li&gt;
+&lt;li&gt;Project database query views (types, macros, checks, etc.)&lt;/li&gt;
+&lt;li&gt;Structural views (type hierarchy, design hierarch, call hierarchy, etc.)&lt;/li&gt;
+&lt;li&gt;Signal tracing&lt;/li&gt;
+&lt;li&gt;UML and TLM diagrams for inspecting and documenting the verification environment&lt;/li&gt;
+&lt;li&gt;Schematic, trace, state machine diagrams for inspecting and documenting the design&lt;/li&gt;
+&lt;li&gt;Dedicated UVM support&lt;/li&gt;
+&lt;li&gt;Cross-language capabilities for mixed-language projects&lt;/li&gt;
+&lt;li&gt;In-line reminders for task tracking (TO DOs)&lt;/li&gt;
+&lt;li&gt;Vi and emacs emulation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
+RESOURCES &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-eclipse-ide&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Web Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/datasheets/amiq_dvt_datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLBx64n-99iZNiUJj_I8WkLLbRl8u0mi94&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-debugger&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
+ <dc:creator>emisingname6ia</dc:creator>
+ <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss#comments</comments>
+  </item>
+  <item>
+    <title>vmlens</title>
+    <link>http://marketplace.eclipse.org/content/vmlens</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_43.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-05-31 07:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22vmlens%22&quot;&gt;vmlens&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2013-04-28 07:37&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tkrieger0xc/listings&quot; title=&quot;Thomas Krieger&quot;&gt;Thomas Krieger&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;vmlens enables you to test and debug multithreaded java software. vmlens detects Race Conditions automatically using dynamic tracing. Using waitpoints you can find deadlocks and races with tests. See which monitor or field was accesed by more than one thread. See when and where they were accessed.&lt;/p&gt;
+&lt;p&gt;Read more about vmlens here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://vmlens.com/&quot; rel=&quot;nofollow&quot;&gt;http://vmlens.com&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 28 Apr 2013 11:37:58 +0000</pubDate>
+ <dc:creator>tkrieger0xc</dc:creator>
+ <guid isPermaLink="false">825595 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/vmlens#comments</comments>
+  </item>
+  <item>
+    <title>Alibaba Cloud Toolkit</title>
+    <link>http://marketplace.eclipse.org/content/alibaba-cloud-toolkit</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/alibaba_logo_110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-05-31 05:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Alibaba%22&quot;&gt;Alibaba&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-11-13 04:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/yshiunv/listings&quot; title=&quot;Ni Chao&quot;&gt;Ni Chao&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Alibaba Cloud Toolkit is a plugin for IDEs such as Eclipse or IntelliJ IDEA. Help developers more efficiently develop, test, diagnose, and deploy applications that are suitable for cloud operations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why use Alibaba Cloud Toolkit?&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Zero cost：Free for all developer&lt;/li&gt;
+&lt;li&gt;Multilingualism：No language restrictions, for all development languages&lt;/li&gt;
+&lt;li&gt;Extremely efficient：Get rid of past recurring deployment methods, plug-in automated deployment&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Three use scenarios, simple and convenient, get started quickly&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Scenario 1: Deploy to ECS。There is no need to switch between Maven, Git, and other O&amp;amp;M scripts and tools, and developers can configure it on a graphical interface to deploy applications to ECS in a sustainable and convenient manner.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scenario 2: Deploy to EDAS。Enterprise Distributed Application Services EDAS is a PaaS platform for applications and microservices that offers a wide range of application delivery and lightweight microservice solutions. For Alibaba Cloud EDAS developers, local applications and cloud deployments have been opened on the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scenario 3: Deploy to Kubernetes。Container Services Kubernetes Edition provides high-performance, scalable container application management capabilities that support full lifecycle management of enterprise-class Kubernetes containerized applications. For Alibaba Cloud Kubernetes developers, local applications and cloud deployments have been opened on the plugin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;Alibaba Cloud Toolkit（或叫做阿里云 Toolkit，Aliyun Toolkit ），是一个面向 Eclipse 或者 Intellij IDEA 系列平台的插件。其帮助开发者更高效的开发、测试、诊断和部署面向云端运行的应用。&lt;/p&gt;
+&lt;p&gt;为什么选择Alibaba Cloud Toolkit？&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;0 成本：对所有开发者免费&lt;/li&gt;
+&lt;li&gt;跨语言：没有编程语言限制&lt;/li&gt;
+&lt;li&gt;极高效：摆脱传统的手工部署方式，多种使用场景，简单方便，快速入门&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;三大场景&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;场景1：部署到 ECS。无需在 Maven、Git 和 SecureCRT 等其他运维工具和脚本之间切换，开发者可以在 IDE 的图形界面上配置好自动化流程，以便采用持续和自动化的方式将应用程序部署到ECS。&lt;/li&gt;
+&lt;li&gt;场景2：部署到 EDAS. 企业级分布式应用服务 EDAS 是一个用于开发和部署微服务应用 PaaS 平台，提供通用的应用程序交付和轻量级微服务解决方案。对于阿里云 EDAS 开发者，可以在插件中关联云端的 EDAS 应用，实现自动化部署。&lt;/li&gt;
+&lt;li&gt;场景3：部署到容器服务 Kubernetes。阿里云容器服务 Kubernetes 版提供高性能，可扩展的容器应用管理功能，支持企业级 Kubernetes 容器化应用的完整生命周期管理。对于阿里云 Kubernetes 开发者，可以在插件中关联云端的 Kubernetes 容器，实现自动化部署。&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 13 Nov 2018 09:24:10 +0000</pubDate>
+ <dc:creator>yshiunv</dc:creator>
+ <guid isPermaLink="false">4368067 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/alibaba-cloud-toolkit#comments</comments>
+  </item>
+  <item>
+    <title>Azure Toolkit for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/azure-toolkit-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/azure110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-05-31 04:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Microsoft%20Corp.%22&quot;&gt;Microsoft Corp.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2014-09-16 16:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/msawicki/listings&quot; title=&quot;Martin Sawicki&quot;&gt;Martin Sawicki&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Azure Toolkit for Eclipse provides functionality that allow you to easily create, develop, configure, test, and deploy lightweight, highly available and scalable Java web apps and HDInsight Spark jobs to Microsoft Azure using the Eclipse development environment running on Mac OS, Linux and Windows. It also contains all the key Azure service API clients for Java, exposed as Eclipse libraries, including the Azure Management SDK, Storage SDK, Application Insights SDK and JDBC (for SQL Server and Azure SQL Database). Other key features of the Azure Toolkit for Eclipse include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;quick deployment of a Java application to an Azure Web App container&lt;/li&gt;
+&lt;li&gt;quick dev/test deployments of Java applications to Docker containers running within Azure Docker Host VMs, for which the plugin also provides basic management support&lt;/li&gt;
+&lt;li&gt;create Spark applications for Azure HDInsight Spark Linux cluster using Java or Scala&lt;/li&gt;
+&lt;li&gt;author, submit, manage, debug locally or in cluster the HDInsight Spark applications&lt;/li&gt;
+&lt;li&gt;use any JVM with your cloud app, including the OpenJDK (e.g. Azul Zulu) or the Oracle JDK&lt;/li&gt;
+&lt;li&gt;deploy any application server, including Tomcat, Jetty, JBoss or GlassFish; or rely on a version of Tomcat or Jetty made available in Azure by Microsoft&lt;/li&gt;
+&lt;li&gt;use the Azure Explorer view to navigate and manage your Azure storage accounts (blobs, tables, queue), web apps, HDInsight (Spark) resources, Docker hosts and published Docker containers on Azure&lt;/li&gt;
+&lt;li&gt;program against Azure&#039;s services such as Storage, Azure SQL Database and more, using the Azure SDK APIs for Java&lt;/li&gt;
+&lt;li&gt;enable automated telemetry for your applications using Application Insights logging directly into the Azure cloud, regardless of where your application is running&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Learn more at the &lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=699529&quot; rel=&quot;nofollow&quot;&gt;documentation site&lt;/a&gt;, and learn more about Java on Azure in general at the &lt;a href=&quot;https://azure.microsoft.com/develop/java/&quot; rel=&quot;nofollow&quot;&gt;Azure Developer Center for Java&lt;/a&gt;. &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 16 Sep 2014 20:39:08 +0000</pubDate>
+ <dc:creator>msawicki</dc:creator>
+ <guid isPermaLink="false">1919278 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/azure-toolkit-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>veloedit</title>
+    <link>http://marketplace.eclipse.org/content/veloedit</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/tjuergeleitkmq/listings&quot; title=&quot;Torsten Juergeleit&quot;&gt;Torsten Juergeleit&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-05-30 14:57&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-07-20 06:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Eclipse editor for the Velocity Template Language (VTL)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 20 Jul 2016 10:25:11 +0000</pubDate>
+ <dc:creator>tjuergeleitkmq</dc:creator>
+ <guid isPermaLink="false">2985127 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/veloedit#comments</comments>
+  </item>
+  <item>
+    <title>eclipse-log-param</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-log-param</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mmisingname884/listings&quot; title=&quot;Andrey Rodionov&quot;&gt;Andrey Rodionov&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-05-30 11:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2019-05-29 11:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Adds &quot;formatted_method_parameter&quot; variable for code templates in eclipse&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 29 May 2019 15:39:49 +0000</pubDate>
+ <dc:creator>mmisingname884</dc:creator>
+ <guid isPermaLink="false">4657312 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-log-param#comments</comments>
+  </item>
+  <item>
+    <title>Groovy Development Tools</title>
+    <link>http://marketplace.eclipse.org/content/groovy-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2019-05-30 10:54&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven (m2e) support for the &lt;a href=&quot;http://groovy-lang.org&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
+&lt;p&gt;The GDT requires the &lt;a href=&quot;https://marketplace.eclipse.org/content/eclipse-java-development-tools-0&quot; rel=&quot;nofollow&quot;&gt;Eclipse Java Development Tools&lt;/a&gt; (JDT) as it builds upon Java/JVM support, including Java interoperability (bi-directional dependencies via joint compilation). If your Eclipse flavor does not include JDT, you must install it first.&lt;/p&gt;
+&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, then please consider &lt;a href=&quot;https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse&quot; rel=&quot;nofollow&quot;&gt;Groovy-Grails Tools Suite&lt;/a&gt; or &lt;a href=&quot;https://github.com/spring-projects/grails-ide&quot; rel=&quot;nofollow&quot;&gt;spring-projects/grails-ide&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
+ <dc:creator>aclement</dc:creator>
+ <guid isPermaLink="false">321859 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>Emacs+</title>
+    <link>http://marketplace.eclipse.org/content/emacs-0</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2019-05-29 09:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%22&quot;&gt;Red Hat&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-05-28 15:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/scoxc6r/listings&quot; title=&quot;Stan Cox&quot;&gt;Stan Cox&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&amp;lt;p&amp;gt;The Emacs+ eclipse plugin is no longer being actively maintained and I would like to take over ownership. I have spoken with the former maintainer who has given me maintainer access to the Emacs+ github site, and I have setup a temporary site where current users can setup the plugin &lt;a href=&quot;https://scox.fedorapeople.org/e4macs/&quot;&gt;https://scox.fedorapeople.org/e4macs/&lt;/a&gt; but having &lt;a href=&quot;https://marketplace.eclipse.org/content/emacs&quot;&gt;https://marketplace.eclipse.org/content/emacs&lt;/a&gt; properly setup would be beneficial to users.&amp;lt;/p&amp;gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 28 May 2019 19:06:27 +0000</pubDate>
+ <dc:creator>scoxc6r</dc:creator>
+ <guid isPermaLink="false">4655867 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/emacs-0#comments</comments>
+  </item>
+  </channel>
+</rss>

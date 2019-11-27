@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class Inventory {
+	int money;
+	int numofmonsterball;
+	int numofpotion;
+	ArrayList<Monsterball> myPoketmonlist = new ArrayList<>();
+	Inventory(){};
+	Inventory(int money){this.money = money;}
+		
+	int listIsEmpty() {
+		int i = -1;
+		for(Monsterball b : myPoketmonlist) {
+			i++;
+			if(b.isEmpty()) return i; //널인 곳을 반환.
+		}
+		return myPoketmonlist.size(); //꽉찼음.
+	}
+	
+	void showMyInventory() {
+		System.out.printf("현재 소유하고 있는 돈 : %d\n", money);
+		System.out.printf("현재 사용가능한 몬스터볼 : %d\n", numofmonsterball);
+		System.out.printf("현재 사용가능한 물약 : %d\n", numofpotion);
+		System.out.println("현재 소유한 나의 포켓몬");
+		for(Monsterball p : myPoketmonlist) {
+			p.print();
+		}
+	}
+}

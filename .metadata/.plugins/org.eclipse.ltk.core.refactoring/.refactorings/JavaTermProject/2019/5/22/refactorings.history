@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;list&apos; in &apos;Inventory&apos; to &apos;myPoketmonlist&apos;&#x0D;&#x0A;- Original project: &apos;JavaTermProject&apos;&#x0D;&#x0A;- Original element: &apos;Inventory.list&apos;&#x0D;&#x0A;- Renamed element: &apos;Inventory.myPoketmonlist&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;list&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{Inventory.java[Inventory^list" name="myPoketmonlist" references="true" setter="false" stamp="1558854539482" textual="false" version="1.0"/>
+</session>

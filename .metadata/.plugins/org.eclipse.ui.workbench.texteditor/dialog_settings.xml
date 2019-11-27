@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="어떤" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="어떤"/>
+			<item value="throw"/>
+			<item value="포켓몬이"/>
+			<item value="가라"/>
+			<item value="나의"/>
+			<item value="2."/>
+			<item value="1. 공격"/>
+			<item value="나의 체력이"/>
+			<item value="나의선공"/>
+			<item value="나의공격"/>
+			<item value="나의 공격"/>
+			<item value="전투를"/>
+			<item value="몬스터볼"/>
+			<item value="공격"/>
+			<item value="야생의"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="288" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="1527" key="DIALOG_X_ORIGIN"/>
+		<item value="253" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
